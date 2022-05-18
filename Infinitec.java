@@ -1,10 +1,7 @@
 package com.tridib;
-
 import java.util.Scanner;
-
 public class infinitecalculator {
     public static void main(String[] args)
-
     {
         System.out.println("\n" +
                 "░█████╗░░█████╗░██╗░░░░░░█████╗░██╗░░░██╗██╗░░░░░░█████╗░████████╗░█████╗░██████╗░\n" +
@@ -32,8 +29,6 @@ public class infinitecalculator {
             System.out.println(calculate(c));
         }
         while(true);
-
-
     }
     static double calculate(char op)
     {
